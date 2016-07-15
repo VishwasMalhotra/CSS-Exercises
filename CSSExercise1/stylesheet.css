@@ -1,3 +1,17 @@
+h5 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+	margin:0px;
+}
+
+h6 {
+    display: block;
+    font-size: 3em;
+    font-weight: bold;
+	margin:70px 0px 0px 0px;
+}
+
 #header {
 	width:100%;
 	background-color:#00008B;
@@ -31,17 +45,19 @@
 #subname {
 	font-family:serif;
 	font-size:25px;
-	color:#00008B;
+	color:#000077;
 }
 #designation {
 	
 	font-family:serif;
 	font-size:15px;
 	color:#808080;
+
 }
 #bio {
 	width:45%;
 	float:right;
+	margin-top:15px;
 }
 .subhead {
 	font-family:tahoma;
@@ -50,11 +66,11 @@
 	color:#808080;
 }
 .li {
-	width:90%;
+	width:100%;
 }
 #l2 {
-	width:90%;
-	background-color:#0000FF;
+	width:100%;
+	background-color:#005297;
 	border:0px;
 	height:2px;
 }
@@ -64,6 +80,7 @@
 	position:relative;
 	width:94%;
 	overflow:hidden;
+	
 }
 #intro {
 	margin-left:20px;
@@ -72,15 +89,18 @@
 	width:45%;
 	text-align:center;
 	float:left;	
-
+	border-right: solid #c9c6c6 2px;
+	border-height:110px;
+	padding-right:90px;
 }
 .pic {
 	float:left;
 }
 #skills {
 
-	width:50%;
+	width:45%;
 	float:right;	
+	
 }
 .divbar {
 
@@ -100,7 +120,7 @@ float:right;
 .innerbar {
 	
 	height:20px;
-	background-color: #0000FF;
+	background-color: #005297;
 	position:absolute;
 	box-shadow: 
     inset 0 2px 9px  rgba(255,255,255,0.3),
@@ -114,7 +134,7 @@ float:right;
 	display:inline-block;
 }
 h4{
-	color:#0000FF;
+	color:#005297;
 	font-size:20px;
 	font-family:tahoma;
 }
@@ -129,6 +149,8 @@ h4{
 
 	width:45%;
 	float:left;
+	border-right: solid #c9c6c6 2px;
+	padding-right:90px;
 }
 #experience {
 	width:45%;
@@ -164,4 +186,25 @@ h4{
 }
 .pimages {
 	text-align:center;
+}
+p1
+{
+	margin:0px;
+	color:#005297;
+	font-weight:bold;
+}
+
+p2
+{
+	margin:5px;
+	 display: block;
+	 font-weight:bold;
+	 font-size:25px;
+}
+
+p3
+{
+	margin:5px;
+	 display: block;
+	 font-size:20px;
 }
