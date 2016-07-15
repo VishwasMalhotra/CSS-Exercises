@@ -1,0 +1,91 @@
+*{margin: 0;
+padding: 0;}
+#header {
+	padding: 10px 10px 10px 10px;
+	background-color:#00BFFF;
+	height: 30px;
+}
+.head {
+	float: left;
+	margin-left: 15%;
+	height:20px;
+}
+a {
+	padding:10px;
+	text-decoration:none;
+	font-family:Arial;
+	font-weight:700;	
+	color: black;
+	font-size:15px;
+}
+.home {
+	margin-left:25%;
+	color:white;
+}
+#second{
+	margin: 0px 0px 20px 0px;
+}
+.mainImg {
+	width:100%;
+}
+#heading {
+	position:relative;
+	text-align:center;
+	font-family:tahoma;
+	font-weight:700;
+	font-size:20px;
+}
+.line {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width: 150px;
+}
+.blueline {
+	background-color: #00BFFF;
+	line-height:2em;
+	height:3px;
+	border: 0px;
+}
+#text{
+	font-family:tahoma;
+	font-size:15px;
+	margin-top:10px;
+}
+#textimg {
+	margin-top:5%;
+	width:75%;
+	margin-left:20%;
+	height:200px;
+	margin-bottom:50px;
+}
+.imgdiv {
+	width:20%;
+	float:left;
+	text-align:center;
+	margin-right:15px;
+}
+.miniheading {
+	font-family:tahoma;
+	font-size: 18px;
+	font-weight:bold;
+}
+h2 span {
+	color: white;
+	margin-left:70%;
+	margin-top:-30%;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+	z-index:100;
+	position:absolute;
+	width:auto;
+}
+.image {
+	position: relative;
+	height:500px;
+	width: 100%;
+	size:auto;
+}
